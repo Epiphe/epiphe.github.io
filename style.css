@@ -1,0 +1,117 @@
+/* Saker som förmodligen ska gälla för allt*/
+
+body {
+    background: rgb(88, 87, 87);
+    color: rgb(216, 216, 216);
+    margin: 0px 0px 0px 0px;
+}
+
+.wrapper {
+    background-color: orange;
+}
+
+.header{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.logga{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+}
+
+.header-knapp {
+    display: grid;
+    grid-column: 7;
+    grid-row: 1;
+    font-size: auto;
+    color: white;
+    background-color: rgb(245, 49, 91);
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.nav {
+    background-color: rgb(51, 51, 51);
+    margin: 0px 0px 0px 0px;
+
+}
+
+nav ul {
+    gap: auto;
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+nav ul a:hover {
+    background-color: rgb(97, 97, 97);
+    color: pink;
+
+}
+
+.nav-list {
+    color:white;
+    grid-column: auto;
+    padding:20px;
+    font-size: auto;
+    grid-column: auto;
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    
+
+}
+
+
+/* Home page specifika saker (classer börjar med "home")*/
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.home-text-div{
+    padding-top: 200px;
+    grid-column: 1;
+    margin-left: 50px;
+
+}
+
+.home-rubrik {
+
+}
+
+.home-slogan {
+    font-size: 70px;
+    margin:10px;
+
+}
+
+.home-knapp {
+    background-color: rgb(120, 247, 120);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 30px 10px 30px;
+}
+
+.home-stor-bild {
+    display: grid;
+    grid-column: 2;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
