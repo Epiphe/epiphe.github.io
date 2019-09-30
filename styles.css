@@ -76,7 +76,7 @@ nav ul a:hover {
 }
 
 
-/* Home page specifika saker (classer börjar med "home")*/
+/* Home page specifika saker (classer börjar med "home") */
 
 .home-body {
     background-image: url("https://via.placeholder.com/1920x1080");
@@ -114,7 +114,14 @@ nav ul a:hover {
     padding: 10px 30px 10px 30px;
 }
 
-.home-stor-bild {
+/* About page specifika saker (classer börjar med "about") */
 
 
-}
+/* Contact page specifika saker (classer börjar med "contact") */
+
+
+/* ThingsD page specifika saker (classer börjar med "thingsD")(eller något smartare) */
+
+
+/* ThingsJ page specifika saker (classer börjar med "thingsJ")(eller något smartare) */
+
