@@ -1,9 +1,120 @@
-* {
+/* Saker som förmodligen ska gälla för allt*/
+
+body {
+    background-color: #687864;
+    color: #F7F9FB;
+    margin: 0px 0px 0px 0px;
+}
+
+.wrapper {
 
 }
 
-p {
+.header{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+    display: grid;
+    background-color: #31708E;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.logga{
+    display: grid;
+    height: 100px;
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+}
+
+.header-knapp {
+    display: grid;
+    grid-column: 7;
+    grid-row: 1;
+    font-size: auto;
+    color: #F7F9FB;
+    background-color: #687864;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.nav {
+    background-color: #5085A5;
+    margin: 0px 0px 0px 0px;
+
+}
+
+nav ul {
+    gap: auto;
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+nav ul a:hover {
+    background-color: #8FC1E3;
+    color: black
+
+}
+
+.nav-list {
+    color:#F7F9FB;
+    grid-column: auto;
+    padding:20px;
+    font-size: auto;
+    grid-column: auto;
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    
 
 }
 
 
+/* Home page specifika saker (classer börjar med "home")*/
+
+.home-body {
+    background-image: url("https://via.placeholder.com/1920x1080");
+    background-position: center top;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.home-text-div{
+    padding-top: 200px;
+    grid-column: 1;
+    margin-left: 50px;
+
+}
+
+.home-rubrik {
+
+}
+
+.home-slogan {
+    font-size: 50px;
+    margin:10px;
+
+}
+
+.home-knapp {
+    background-color: #687864;
+    color: #F7F9FB;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 30px 10px 30px;
+}
+
+.home-stor-bild {
+
+
+}
