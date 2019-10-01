@@ -147,4 +147,9 @@ nav ul a:hover {
 
 
 /* ThingsJ page specifika saker (classer börjar med "thingsJ")(eller något smartare) */
+.innehallJ-main
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
