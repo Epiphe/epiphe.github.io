@@ -1,7 +1,7 @@
 /* Saker som förmodligen ska gälla för allt*/
 
 body {
-    background-color: #687864;
+    background-color: #8FC1E3;
     color: #F7F9FB;
     margin: 0px 0px 0px 0px;
 }
@@ -114,9 +114,32 @@ nav ul a:hover {
     padding: 10px 30px 10px 30px;
 }
 
-/* About page specifika saker (classer börjar med "about") */
+/* About page specifika saker (classer börjar med "Om oss") */
+.om_oss-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+.om_oss-rubrik{
 
+}
 
+.om_oss-text{
+
+}
+.om_oss-bild{
+    border-radius: 150px;
+    margin-left: 80px;
+    height: 250px; 
+    width: 250px; 
+    
+
+}
+.om_oss-textruta{
+    grid-column: 2;
+    font-size: 20px;
+    
+}
 /* Contact page specifika saker (classer börjar med "contact") */
 
 
