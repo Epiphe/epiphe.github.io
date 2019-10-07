@@ -42,6 +42,11 @@ body {
     margin-bottom: 32px;
 }
 
+button:hover {
+    background-color: #E3AFBC;
+    color: black;
+}
+
 .nav {
     background-color: #9A1750;
     margin: 0px 0px 0px 0px;
