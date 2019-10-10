@@ -120,42 +120,48 @@ nav ul a:hover {
 }
 
 /* About page specifika saker (classer börjar med "Om oss") */
-.om_oss-main {
+.om_oss-main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 50px;
+   /* margin-top: 50px;*/
     grid-template-rows: 1fr 1fr;
+    /*margin:100px;*/ 
 }
 
-.om_oss-rubrik {
+.om_oss-rubrik{
+    
+}
+
+.om_oss-text{
+   
 
 }
 
-.om_oss-text {
-
-}
-
-.om_oss-bild {
+.om_oss-bild{
     display: grid; 
     grid-column: auto;
-    border-radius: 150px;
+    border-radius: 20px;
     margin: auto;
-    height: 250px; 
-    width: 250px; 
+    height: 300px; 
+    width: 400px; 
     
 }
 
-.om_oss-textruta {
+.om_oss-textruta{
     grid-column: 2;
     font-size: 20px;
-    
+    color:#F7F9FB;
 }
 
-.om_oss-bildtext {
+.om_oss-bildtext{
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: 1/4;
     display: grid; 
     grid-row: auto;
+    background-color:#5D001E;
+    margin:30px;
+    border-radius: 20px;
+
 
 }
 /* Contact page specifika saker (classer börjar med "contact") */
