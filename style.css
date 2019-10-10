@@ -302,11 +302,6 @@ input[type=text], select {
 
 /* ThingsD page specifika saker (classer börjar med "thingsD")(eller något smartare) */
 
-.varaprojektD-main {
-background-image: url(/images/Stylishmechanic.jfif);
-height: 20cm;
-
-}
 .rubrikD {
     display: grid;
     grid-template-columns: auto;
@@ -315,7 +310,12 @@ height: 20cm;
 .varaprojektD-main {
     display:grid;
     grid-template-columns: auto auto;
-    color: white
+    text-align: center;
+    color: black;
+    height: 20cm;
+    border: 2px solid black;
+    padding: 70px;
+    font-size: 150%;
 }
 
 
