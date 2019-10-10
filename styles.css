@@ -302,6 +302,22 @@ input[type=text], select {
 
 /* ThingsD page specifika saker (classer börjar med "thingsD")(eller något smartare) */
 
+.varaprojektD-main {
+background-image: url(/images/Stylishmechanic.jfif);
+height: 20cm;
+
+}
+.rubrikD {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+.varaprojektD-main {
+    display:grid;
+    grid-template-columns: auto auto;
+    color: white
+}
+
 
 /* ThingsJ page specifika saker (classer börjar med "thingsJ")(eller något smartare) */
 .innehallJ-main {
