@@ -181,7 +181,6 @@ nav ul a:hover {
 
     grid-column: auto;
     border-radius: 20px;
-    margin: auto 20px auto 20px;
     height: 300px; 
     width: 400px; 
     
@@ -265,6 +264,7 @@ nav ul a:hover {
 .contact-h3 {
     font-size: 24px;
     text-align: center;
+    margin: 5px 0px;
 }
 
 .contact-jobb {
@@ -299,7 +299,7 @@ nav ul a:hover {
     color: #F7F9FB;
     border-radius: 10px;
     padding: 20px;
-    height: 200px;
+    height: 270px;
 }
 
 
@@ -336,6 +336,7 @@ input[type=text], select {
     color:black;
     
 }
+
   
 input[type=submit] {
     width: 100px;
