@@ -73,7 +73,7 @@ nav ul {
     display: grid;
     margin: 0px;
     padding: 0px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
 }
 
@@ -82,6 +82,7 @@ nav ul a:hover {
     color: black
 
 }
+
 
 .nav-list {
     color:#F7F9FB;
