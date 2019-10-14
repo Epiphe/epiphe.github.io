@@ -116,7 +116,7 @@ nav ul a:hover {
 /* Home page specifika saker (classer börjar med "home") */
 
 .home-body {
-    background-image: url("./images/Background.jpg");
+    background-image: url("./images/bakgrund-3b.png");
     background-position: center top;
 }
 
@@ -407,6 +407,15 @@ input[type=submit] :hover {
 }
 
     /* ThingsJ page specifika saker (classer börjar med "thingsJ")(eller något smartare) */
+    @media screen and (min-width: 768px) {
+      .mobile_dropdown
+      {
+            display: none;
+      }
+    }
+
+
+
     .innehallJ
     {
       background-image: url("./images/bakgrund-3b.png");
@@ -487,6 +496,61 @@ input[type=submit] :hover {
 
     /*--------------------för mobile--------------------*/
 @media only screen and (max-width: 768px) {
+
+/*Dropdowntest start*/
+
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #9A1750;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #EE4C7C;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  /*Dropdown test end */
+
+    .innehallJ .nav
+  {
+            display: none;
+  }
+
     .innehallJ-main section
     {
         margin: 1em;
