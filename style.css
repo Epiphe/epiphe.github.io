@@ -282,7 +282,7 @@ nav ul a:hover {
     gap: 20px;
 }
 
-.contact-anstälda {
+.contact-personer {
     grid-column: 1/6;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
