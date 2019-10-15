@@ -60,7 +60,6 @@ button:hover {
     display: grid;
     grid-column: 7;
     grid-row: 1;
-    font-size: auto;
     color: #F7F9FB;
     background-color: #EE4C7C;
     border-radius: 5px;
@@ -76,7 +75,6 @@ button:hover {
 }
 
 nav ul {
-    gap: auto;
     display: grid;
     margin: 0px;
     padding: 0px;
