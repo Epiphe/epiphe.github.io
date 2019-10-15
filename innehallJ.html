@@ -7,35 +7,14 @@
     <title>Unicorn United</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<script>
 
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
+<script type="text/javascript" src="unicornscript.js"></script>
 
 <body class="innehallJ">
 
     <div id="wrapper">
         <header class="header">
-            <a href="index.html"> <img src="images/UnicornUnited_Logo2.png" alt="Logotyp" class="logga"> </a>
+            <a href="index.html"> <img src="images/UnicornUnited_Logo_final.png" alt="Logotyp" class="logga"> </a>
             <button class="header-knapp"><a href="kontakt.html#kontaktaoss"class="knapp">MAGIC</a></button>
 
         </header>
@@ -62,6 +41,7 @@ window.onclick = function(event) {
               <a href="kontakt.html" class="nav-list">Kontakt</a>
             </div>
           </div>
+        </nav>
 
 <!-- Dropdown test-->
 
@@ -120,7 +100,7 @@ window.onclick = function(event) {
                 </section>
             </Article>
         </main>
-        
+
           <footer class="footer">
 
     <div class="footer-company">
@@ -134,7 +114,7 @@ window.onclick = function(event) {
       <a href="#"><i class="fa fa-instagram social"> @UnicornUnitedOfficial</i></a><br>
       <a href="#"><i class="fa fa-facebook social"> @UnicornUnitedOfficial</i></a><br>
       <a href="#"><i class="fa fa-twitter social"> @UnicornUnitedOfficial</i></a><br>
-    
+
     </div>
 
   </footer>
