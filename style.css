@@ -48,6 +48,11 @@ button:hover {
     color:black;
 }
 
+.social {
+    text-decoration: none;
+    color: #E3AFBC;
+}
+
 .header-knapp {
     padding: 0px;
     display: grid;
@@ -95,6 +100,37 @@ nav ul a:hover {
     text-decoration: none;
     display: inline;
     text-align: center;
+
+}
+
+.footer {
+    background-color: #5D001E;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    padding-top: 5px;
+    color: #F7F9FB;
+}
+
+.footer-company {
+    grid-column: 1;
+}
+
+.footer-logga {
+    height: 50px;
+
+
+}
+.copyright {
+    font-size: 10px;
+    margin-left: 10px;
+
+}
+
+
+.footer-text {
+    grid-column: 6;
+    padding: 10px;
 
 }
 
@@ -182,13 +218,15 @@ nav ul a:hover {
 
     grid-column: auto;
     border-radius: 20px;
-    height: 300px;
-    width: 400px;
-
+    width: 400px; 
+    margin: 20px;
+       
 }
 
 .om_oss-textruta {
-    grid-column: 2;
+    margin: 0px 10px 10px 10px;
+    grid-column: auto;
+    grid-column-end: span 2;
     font-size: 20px;
     color:#F7F9FB;
 }
@@ -197,13 +235,15 @@ nav ul a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     grid-column: 1/4;
-    display: grid;
+    display: grid; 
     grid-row: auto;
     background-color:#5D001E;
-    margin:30px;
+    margin:20px;
     border-radius: 20px;
-
-
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -211,6 +251,9 @@ nav ul a:hover {
 @media only screen and (max-width: 768px) {
     .om_oss-bild{
         grid-column: 1/4;
+        margin: auto;
+        max-width: 100%;
+
     }
 
     .om_oss-textruta{
@@ -220,7 +263,7 @@ nav ul a:hover {
     }
 
     .om_oss-main{
-        padding:50px;
+        padding:20px;
         margin-top: 0px;
     }
 
@@ -242,6 +285,7 @@ nav ul a:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
     padding: 20px;
+    place-items: center;
 
 }
 
@@ -361,6 +405,10 @@ input[type=submit] :hover {
 /*--------------------för mobile--------------------*/
 @media only screen and (max-width: 768px) {
 
+    .contact-column{
+        width:100%;
+    }
+
     .contact-anstälda {
         grid-template-columns: 1fr;
         padding: 0% 25%;
@@ -369,7 +417,7 @@ input[type=submit] :hover {
     .contact-jobb {
         grid-template-columns: 1fr;
     }
-
+    
     .contact-contact {
         grid-template-columns: 1fr;
     }
