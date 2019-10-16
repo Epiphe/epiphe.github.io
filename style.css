@@ -495,7 +495,7 @@ input[type=submit] :hover {
         display: grid;
         grid-template-columns: auto;
         text-align: center;
-    }
+        
     .varaprojektD-main {
     display:grid;
     grid-template-columns: auto auto;
@@ -504,8 +504,9 @@ input[type=submit] :hover {
     height: 20cm;
     padding: 70px;
     font-size: 150%;
+    border-radius: 10px;
+    background-color: #5D001E;
 }
-
     /*--------------------för mobile--------------------*/
 @media only screen and (max-width: 768px) {
 
