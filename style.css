@@ -528,6 +528,7 @@ input[type=submit] :hover
 /* innehallD page specifika saker (classer börjar med "innehallD")(eller något smartare) */
 
 
+<<<<<<< HEAD
 
 .rubrikD
 {
@@ -544,6 +545,29 @@ input[type=submit] :hover
     padding: 10px 20px;
     border-radius: 10px;
 }
+=======
+    }
+    .rubrikD {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center; 
+    }
+        
+    .varaprojektD-main {
+    display:grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    color: black;
+    height: 20cm;
+    padding: 70px;
+    font-size: 150%;
+    border-radius: 10px;
+    background-color: #5D001E;
+    overflow: hidden;
+   }
+    /*--------------------för mobile--------------------*/
+@media only screen and (max-width: 768px) {
+>>>>>>> fce3c56a7aac8d8c74f47ceb737b88750210292c
 
 .varaprojektD-main
 {
