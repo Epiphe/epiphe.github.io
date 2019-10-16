@@ -45,9 +45,6 @@ html {
     color: #E3AFBC;
 }
 
-.header-knapp {
-    padding-top:15px;
-}
 
 .knapp {
     padding:  10px 30px 10px 30px;
@@ -61,7 +58,9 @@ html {
     margin-bottom: 32px;
     text-decoration: none;
     max-width: 70px;
+    height:  20px;
     text-align: center;
+    
 }
 
 .nav {
