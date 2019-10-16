@@ -35,12 +35,6 @@ html {
     padding: 0.5em 1em;
 }
 
-.knapp {
-    text-decoration: none;
-    color: #F7F9FB;
-    padding: 10px 30px 10px 30px;
-}
-
 .knapp:hover{
     color:black;
     background-color: #E3AFBC;
