@@ -137,8 +137,7 @@ nav ul a:hover {
 /*--------------------för mobile--------------------*/
 @media only screen and (max-width: 768px) {
     .logga{
-        /*height: 80px;*/
-        width: 50%;
+        height: 80px;
         margin-top: 10px;
     }
 
@@ -200,6 +199,12 @@ nav ul a:hover {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .logga{
+        height: 50px;
+        margin-top: 10px;
+    }
+}
 
 /* About page specifika saker (classer börjar med "Om oss") */
 .om_oss-main {
