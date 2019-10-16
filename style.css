@@ -204,6 +204,10 @@ nav ul a:hover {
         height: 50px;
         margin-top: 10px;
     }
+    .footer-logga
+    {
+      height: 30px;
+    }
 }
 
 /* About page specifika saker (classer börjar med "Om oss") */
