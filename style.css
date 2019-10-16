@@ -137,7 +137,8 @@ nav ul a:hover {
 /*--------------------för mobile--------------------*/
 @media only screen and (max-width: 768px) {
     .logga{
-        height: 80px;
+        /*height: 80px;*/
+        width: 50%;
         margin-top: 10px;
     }
 
