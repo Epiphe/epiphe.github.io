@@ -527,42 +527,49 @@ input[type=submit] :hover
 
 /* innehallD page specifika saker (classer börjar med "innehallD")(eller något smartare) */
 
-.rubrikD {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    text-align: center;
-  }
-  
-   .rubrikD h1 {
-      color: #F7F9FB;
-      background-color: #5D001E;
-      margin: 10px 20px;
-      padding: 10px 20px;
-      border-radius: 10px;
-  }
- 
-    /*--------------------för mobile--------------------*/
-@media only screen and (max-width: 768px) {
+
+
+.rubrikD
+{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+}
 
 .varaprojektD-main
 {
   display:grid;
-  grid-template-columns:  auto auto ;
+  grid-template-columns: auto auto;
   text-align: center;
-  grid-gap: 10px;
-  margin: 0 20px;
-}
-
-.varaprojektD-main article
-{
-  color: #F7F9FB;
-  padding: 20px;
-  font-size: 100%;
+  color: black;
+  height: 20cm;
+  padding: 70px;
+  font-size: 150%;
   border-radius: 10px;
   background-color: #5D001E;
+  overflow: hidden;
 }
-}  
+/*--------------------för mobile--------------------*/
+@media only screen and (max-width: 768px) {
+
+  .varaprojektD-main
+  {
+    display:grid;
+    grid-template-columns:  auto auto ;
+    text-align: center;
+    grid-gap: 10px;
+    margin: 0 20px;
+  }
+
+  .varaprojektD-main article
+  {
+    color: #F7F9FB;
+    padding: 20px;
+    font-size: 100%;
+    border-radius: 10px;
+    background-color: #5D001E;
+  }
+}
 /*--------------------för mobile--------------------*/
 @media only screen and (max-width: 768px) {
 
@@ -592,7 +599,7 @@ input[type=submit] :hover
 {
   display:grid;
   grid-template-columns: minmax(5px,100px) 1fr 0px 1fr minmax(5px,100px);
-  gap: 10px;
+  gap: 20px 10px;
 }
 
 .innehallJ-main article
