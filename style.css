@@ -45,6 +45,10 @@ html {
     color: #E3AFBC;
 }
 
+.header-knapp {
+    padding-top:15px;
+}
+
 .knapp {
     padding:  10px 30px 10px 30px;
     display: grid;
