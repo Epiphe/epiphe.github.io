@@ -486,10 +486,6 @@ input[type=submit] :hover {
 /* innehallD page specifika saker (classer börjar med "innehallD")(eller något smartare) */
 
 
-.varaprojektD-main {
-    background-image: url(/images/Stylishmechanic.jfif);
-    height: 20cm;
-
     }
     .rubrikD {
         display: grid;
