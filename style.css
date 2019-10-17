@@ -533,30 +533,28 @@ input[type=submit] :hover
     grid-template-rows: auto;
   }
 
-   .rubrikD h2 {
-      color: #F7F9FB;
-      background-color: #5D001E;
-      margin: 10px 20px;
-      padding: 10px 20px;
-      border-radius: 10px;
+.rubrikD h2 {
+     color: #F7F9FB;
+     background-color: #5D001E;
+     margin: 10px 20px;
+     padding: 10px 20px;
+     border-radius: 10px;
   }
 
-.varaprojektD-main
-{
-  display:grid;
-  grid-template-columns:  auto auto ;
-  text-align: center;
-  grid-gap: 10px;
-  margin: 0 20px;
+.varaprojektD-main {
+    display:grid;
+    grid-template-columns:  auto auto ;
+    text-align: center;
+    grid-gap: 10px;
+    margin: 0 20px;
 }
 
-.varaprojektD-main article
-{
-  color: #F7F9FB;
-  padding: 20px;
-  font-size: 100%;
-  border-radius: 10px;
-  background-color: #5D001E;
+.varaprojektD-main article {
+    color: #F7F9FB;
+    padding: 20px;
+    font-size: 100%;
+    border-radius: 10px;
+    background-color: #5D001E;
 }
 
 
