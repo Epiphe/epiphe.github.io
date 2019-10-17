@@ -531,7 +531,6 @@ input[type=submit] :hover
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    text-align: center;
   }
 
    .rubrikD h1 {
